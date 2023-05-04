@@ -1,24 +1,27 @@
-# tfg_front
+# Vue 3 + Vite
 
-## Project setup
-```
-npm install
-```
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Recommended IDE Setup
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Crear documento vite + vue3
+-npm init vite@latest Creador_cuenta_front -- -- template vue.
+-npm install.
+-npm run dev.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Instalar vuetify
+-vue add vuetify
+
+## Añadir sass
+
+## Añadir vue router
+-npm install vue-router --save
+- Añadir al main.js :
+  import VueRouter from 'vue-router'  
+Vue.use(VueRouter)
+-Crear carpeta Router dentro de src
+
+## Añadir typed para la escritura animada
+-npm install --save vue-typed-js
